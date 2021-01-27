@@ -15,8 +15,10 @@
 
     window.removeEventListener('load', init);
 
-    const body = document.querySelector('body');
-    body.classList.add('loaded');
+    setTimeout(() => {
+      const body = document.querySelector('body');
+      body.classList.add('loaded');
+    }, 10);
 
     timeContainer = document.querySelector('#time');
     update();
