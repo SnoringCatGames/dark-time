@@ -13,9 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  font-family: 'Calibri', 'Open Sans', sans-serif;
-
+  font-family: 'Nunito', 'Calibri', sans-serif;
   background-color: #222222;
   color: #333333;
 }

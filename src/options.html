@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+
+  <title>Dark Time options</title>
+
+  <link rel="icon"
+        type="image/png"
+        href="/images/icon-16.png"
+        sizes="16x16">
+  <link rel="icon"
+        type="image/png"
+        href="/images/icon-32.png"
+        sizes="32x32">
+  <link rel="icon"
+        type="image/png"
+        href="/images/icon-48.png"
+        sizes="48x48">
+  <link rel="icon"
+        type="image/png"
+        href="/images/icon-128.png"
+        sizes="128x128">
+
+  <link rel="stylesheet"
+        type="text/css"
+        href="/src/options.css">
+  <link href='https://fonts.googleapis.com/css?family=Nunito:400,700'
+        rel='stylesheet'
+        type='text/css'>
+
+  <script defer
+          type="text/javascript"
+          src="/src/common.js"></script>
+  <script defer
+          type="text/javascript"
+          src="/src/options.js"></script>
+</head>
+<body>
+<div id="color-swatch">
+  <div id="time"></div>
+</div>
+
+<div id="save-status"></div>
+
+<div id="reset">
+  <button>Restore defaults</button>
+</div>
+
+<div id="background-color"
+     class="color-selector">
+  <h2>Background color</h2>
+  <label>
+    Enter a hex color code:
+    <input class="color-input"
+           type="text"
+           value="#222222">
+  </label>
+  <div class="color-error"></div>
+</div>
+
+<div id="text-active-color"
+     class="color-selector">
+  <h2>Text color</h2>
+  <label>
+    Enter a hex color code:
+    <input class="color-input"
+           type="text"
+           value="#777777">
+  </label>
+  <div class="color-error"></div>
+</div>
+
+<div id="text-inactive-color"
+     class="color-selector">
+  <h2>Text color</h2>
+  <label>
+    Enter a hex color code:
+    <input class="color-input"
+           type="text"
+           value="#333333">
+  </label>
+  <div class="color-error"></div>
+</div>
+</body>
+</html>

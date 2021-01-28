@@ -1,3 +1,3 @@
-# chrome-extension
+# Dark Time
 
-_Reports how much time you spent visiting certain websites._
+_A Chrome extension that replaces the new tab page. Shows the current time, with configurable background and text colors._

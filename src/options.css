@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  font-family: 'Nunito', 'Calibri', sans-serif;
+  font-size: 18px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.color-selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+}
+
+
+#color-swatch {
+  transition: color 0.3s ease-in-out;
+}
+
+#time {
+  min-width: 100px;
+  padding: 1em;
+  text-align: center;
+  font-size: 26pt;
+}
+
+.color-input {
+}
+
+.color-error {
+  color: #DD2211;
+}
+
+#background-color {
+}
+
+#text-active-color {
+}
+
+#text-inactive-color {
+}
