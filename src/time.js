@@ -9,6 +9,7 @@
   let timeContainer;
   let style;
   let cssTextNode;
+  let timeString = '';
 
   window.addEventListener('load', init, false);
 
@@ -78,7 +79,12 @@
 
   function updateTime() {
     const date = new Date();
-    timeContainer.textContent = date.toLocaleTimeString([], {timeStyle: 'short'});
+    const newTimeString = date.toLocaleTimeString([], {timeStyle: 'short'});
+    if (newTimeString !== timeString) {
+      timeString = newTimeString;
+      timeContainer.textContent = timeString;
+      document.title = timeString;
+    }
     window.requestAnimationFrame(updateTime);
   }
 })();
