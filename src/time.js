@@ -10,6 +10,7 @@
   let style;
   let cssTextNode;
   let timeString = '';
+  let animationFrameId;
 
   window.addEventListener('load', init, false);
 
@@ -23,6 +24,9 @@
     style = document.createElement('style');
     const head = document.querySelector('head');
     head.appendChild(style);
+
+    window.addEventListener('blur', onBlur);
+    window.addEventListener('focus', onFocus);
 
     loadColors();
     initializeBody();
@@ -85,6 +89,16 @@
       timeContainer.textContent = timeString;
       document.title = timeString;
     }
-    window.requestAnimationFrame(updateTime);
+    animationFrameId = window.requestAnimationFrame(updateTime);
+  }
+
+  function onBlur() {
+    setTimeout(() => document.title = window.darkTime.common.BLUR_TITLE);
+    window.cancelAnimationFrame(animationFrameId);
+  }
+
+  function onFocus() {
+    updateTime();
+    document.title = timeString;
   }
 })();
