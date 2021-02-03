@@ -1,15 +1,16 @@
 'use strict';
 
 (() => {
-  var backgroundColor = window.darkTime.common.BACKGROUND_COLOR_DEFAULT;
-  var textActiveColor = window.darkTime.common.TEXT_ACTIVE_COLOR_DEFAULT;
-  var textInactiveColor = window.darkTime.common.TEXT_INACTIVE_COLOR_DEFAULT;
+  let backgroundColor = window.darkTime.common.BACKGROUND_COLOR_DEFAULT;
+  let textActiveColor = window.darkTime.common.TEXT_ACTIVE_COLOR_DEFAULT;
+  let textInactiveColor = window.darkTime.common.TEXT_INACTIVE_COLOR_DEFAULT;
 
   let body;
   let timeContainer;
   let style;
   let cssTextNode;
   let timeString = '';
+  let documentTitle = '';
   let animationFrameId;
 
   window.addEventListener('load', init, false);
@@ -18,6 +19,9 @@
     console.log('onDocumentLoad');
 
     window.removeEventListener('load', init);
+
+    updateTitle();
+    setInterval(updateTitle, 2000);
 
     body = document.querySelector('body');
     timeContainer = document.querySelector('#time');
@@ -88,18 +92,25 @@
     if (newTimeString !== timeString) {
       timeString = newTimeString;
       timeContainer.textContent = timeString;
-      document.title = timeString;
     }
     animationFrameId = window.requestAnimationFrame(updateTime);
   }
 
+  function updateTitle() {
+    const date = new Date();
+    const timeIndex = date.getHours() % 12;
+    const newDocumentTitle = window.darkTime.common.TIME_EMOJIS[timeIndex];
+    if (newDocumentTitle !== documentTitle) {
+      documentTitle = newDocumentTitle;
+      document.title = documentTitle;
+    }
+  }
+
   function onVisibilityChange() {
     if (document.hidden) {
-      setTimeout(() => document.title = window.darkTime.common.BLUR_TITLE);
       window.cancelAnimationFrame(animationFrameId);
     } else {
       updateTime();
-      document.title = timeString;
     }
   }
 })();
