@@ -25,12 +25,13 @@
     const head = document.querySelector('head');
     head.appendChild(style);
 
-    window.addEventListener('blur', onBlur);
-    window.addEventListener('focus', onFocus);
+    window.addEventListener('visibilitychange', onVisibilityChange);
 
     loadColors();
     initializeBody();
-    updateTime();
+    if (!document.hidden) {
+      updateTime();
+    }
   }
 
   function loadColors() {
@@ -92,13 +93,13 @@
     animationFrameId = window.requestAnimationFrame(updateTime);
   }
 
-  function onBlur() {
-    setTimeout(() => document.title = window.darkTime.common.BLUR_TITLE);
-    window.cancelAnimationFrame(animationFrameId);
-  }
-
-  function onFocus() {
-    updateTime();
-    document.title = timeString;
+  function onVisibilityChange() {
+    if (document.hidden) {
+      setTimeout(() => document.title = window.darkTime.common.BLUR_TITLE);
+      window.cancelAnimationFrame(animationFrameId);
+    } else {
+      updateTime();
+      document.title = timeString;
+    }
   }
 })();
