@@ -10,19 +10,23 @@
 
   <link rel="icon"
         type="image/png"
-        href="/images/icon-16.png"
+        href="/images/clock_16_0.png"
         sizes="16x16">
   <link rel="icon"
         type="image/png"
-        href="/images/icon-32.png"
+        href="/images/clock_32_0.png"
         sizes="32x32">
   <link rel="icon"
         type="image/png"
-        href="/images/icon-48.png"
+        href="/images/clock_48_0.png"
         sizes="48x48">
   <link rel="icon"
         type="image/png"
-        href="/images/icon-128.png"
+        href="/images/clock_64_0.png"
+        sizes="64x64">
+  <link rel="icon"
+        type="image/png"
+        href="/images/clock_128_0.png"
         sizes="128x128">
 
   <link rel="stylesheet"
@@ -50,38 +54,60 @@
   <button>Restore defaults</button>
 </div>
 
+<div id="uses-24-hour-format"
+     class="checkbox">
+  <label>
+    <input type="checkbox">
+    Use 24-hour format
+  </label>
+  <div class="color-error"></div>
+</div>
+
+<div id="includes-am-pm"
+     class="checkbox">
+  <label>
+    <input type="checkbox"
+           checked>
+    Show AM/PM
+  </label>
+  <div class="color-error"></div>
+</div>
+
+<div id="includes-digital-time-in-title"
+     class="checkbox">
+  <label>
+    <input type="checkbox">
+    Show time in tab
+  </label>
+  <div class="color-error"></div>
+</div>
+
 <div id="background-color"
      class="color-selector">
-  <h2>Background color</h2>
   <label>
-    Enter a hex color code:
-    <input class="color-input"
-           type="text"
+    <input type="color"
            value="#222222">
+    Background
   </label>
   <div class="color-error"></div>
 </div>
 
 <div id="text-active-color"
      class="color-selector">
-  <h2>Text color</h2>
   <label>
-    Enter a hex color code:
-    <input class="color-input"
-           type="text"
+    <input type="color"
            value="#777777">
+    Active text
   </label>
   <div class="color-error"></div>
 </div>
 
 <div id="text-inactive-color"
      class="color-selector">
-  <h2>Text color</h2>
   <label>
-    Enter a hex color code:
-    <input class="color-input"
-           type="text"
+    <input type="color"
            value="#333333">
+    Inactive text
   </label>
   <div class="color-error"></div>
 </div>

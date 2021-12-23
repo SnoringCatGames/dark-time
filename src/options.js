@@ -1,10 +1,16 @@
 'use strict';
 
 (() => {
+  const common = window.darkTime.common;
+  
   let timeElement;
   let colorSwatchElement;
   let saveStatusElement;
   let resetButtonElement;
+
+  let uses24HourFormatInputElement;
+  let includesAmPmInputElement;
+  let includesDigitalTimeInTitleInputElement;
 
   let backgroundInputElement;
   let backgroundErrorElement;
@@ -17,10 +23,6 @@
   let isTextActiveInputValid;
   let isTextInactiveInputValid;
 
-  let backgroundColor;
-  let textActiveColor;
-  let textInactiveColor;
-
   let isTextActiveColorShown;
   let toggleTextColorInterval;
 
@@ -32,7 +34,7 @@
     document.removeEventListener('DOMContentLoaded', init);
 
     initializeElements();
-    initializeColors();
+    initializeSettings();
     updateTime();
   }
 
@@ -42,51 +44,71 @@
     saveStatusElement = document.querySelector('#save-status');
     resetButtonElement = document.querySelector('#reset button');
 
-    backgroundInputElement = document.querySelector('#background-color .color-input');
+    uses24HourFormatInputElement = document.querySelector('#uses-24-hour-format input');
+    includesAmPmInputElement = document.querySelector('#includes-am-pm input');
+    includesDigitalTimeInTitleInputElement = document.querySelector('#includes-digital-time-in-title input');
+
+    backgroundInputElement = document.querySelector('#background-color input');
     backgroundErrorElement = document.querySelector('#background-color .color-error');
-    textActiveInputElement = document.querySelector('#text-active-color .color-input');
+    textActiveInputElement = document.querySelector('#text-active-color input');
     textActiveErrorElement = document.querySelector('#text-active-color .color-error');
-    textInactiveInputElement = document.querySelector('#text-inactive-color .color-input');
+    textInactiveInputElement = document.querySelector('#text-inactive-color input');
     textInactiveErrorElement = document.querySelector('#text-inactive-color .color-error');
 
-    backgroundInputElement.addEventListener('input', updateColors);
-    textActiveInputElement.addEventListener('input', updateColors);
-    textInactiveInputElement.addEventListener('input', updateColors);
+    uses24HourFormatInputElement.addEventListener('change', updateSettings);
+    includesAmPmInputElement.addEventListener('change', updateSettings);
+    includesDigitalTimeInTitleInputElement.addEventListener('change', updateSettings);
+
+    backgroundInputElement.addEventListener('change', updateSettings);
+    textActiveInputElement.addEventListener('change', updateSettings);
+    textInactiveInputElement.addEventListener('change', updateSettings);
 
     resetButtonElement.addEventListener('click', restoreDefaults);
   }
 
-  function initializeColors() {
-    updateColors(false);
+  function initializeSettings() {
+    updateSettings(false);
     chrome.storage.sync.get({
-      backgroundColor: window.darkTime.common.BACKGROUND_COLOR_DEFAULT,
-      textActiveColor: window.darkTime.common.TEXT_ACTIVE_COLOR_DEFAULT,
-      textInactiveColor: window.darkTime.common.TEXT_INACTIVE_COLOR_DEFAULT,
+      uses24HourFormat: common.USES_24_HOUR_FORMAT_DEFAULT,
+      includesAmPm: common.INCLUDES_AM_PM_DEFAULT,
+      includesDigitalTimeInTitle: common.INCLUDES_DIGITAL_TIME_IN_TITLE_DEFAULT,
+      backgroundColor: common.BACKGROUND_COLOR_DEFAULT,
+      textActiveColor: common.TEXT_ACTIVE_COLOR_DEFAULT,
+      textInactiveColor: common.TEXT_INACTIVE_COLOR_DEFAULT,
     }, items => {
       if (!!chrome.runtime.lastError) {
         saveStatusElement.textContent = 'Error loading!: ' + chrome.runtime.lastError;
-        saveStatusElement.style.color = ERROR_COLOR;
+        saveStatusElement.style.color = common.ERROR_COLOR;
       } else {
+        uses24HourFormatInputElement.checked = items.uses24HourFormat;
+        includesAmPmInputElement.checked = items.includesAmPm;
+        includesDigitalTimeInTitleInputElement.checked = items.includesDigitalTimeInTitle;
         backgroundInputElement.value = items.backgroundColor;
         textActiveInputElement.value = items.textActiveColor;
         textInactiveInputElement.value = items.textInactiveColor;
-        updateColors(false);
+        updateSettings(false);
       }
     });
   }
 
   function restoreDefaults() {
-    backgroundInputElement.value = window.darkTime.common.BACKGROUND_COLOR_DEFAULT;
-    textActiveInputElement.value = window.darkTime.common.TEXT_ACTIVE_COLOR_DEFAULT;
-    textInactiveInputElement.value = window.darkTime.common.TEXT_INACTIVE_COLOR_DEFAULT;
-    updateColors();
+    uses24HourFormatInputElement.checked = common.USES_24_HOUR_FORMAT_DEFAULT;
+    includesAmPmInputElement.checked = common.INCLUDES_AM_PM_DEFAULT;
+    includesDigitalTimeInTitleInputElement.checked = common.INCLUDES_DIGITAL_TIME_IN_TITLE_DEFAULT;
+    backgroundInputElement.value = common.BACKGROUND_COLOR_DEFAULT;
+    textActiveInputElement.value = common.TEXT_ACTIVE_COLOR_DEFAULT;
+    textInactiveInputElement.value = common.TEXT_INACTIVE_COLOR_DEFAULT;
+    updateSettings();
   }
 
-  function updateColors(record = true) {
+  function updateSettings(record = true) {
+    common.uses24HourFormat = uses24HourFormatInputElement.checked;
+    common.includesAmPm = includesAmPmInputElement.checked;
+    common.includesDigitalTimeInTitle = includesDigitalTimeInTitleInputElement.checked;
     validateColors();
     updateElementColors();
     if (record) {
-      recordColors();
+      recordSettings();
     }
   }
 
@@ -95,35 +117,35 @@
     const textActiveString = textActiveInputElement.value;
     const textInactiveString = textInactiveInputElement.value;
 
-    isBackgroundInputValid = window.darkTime.common.HEX_REGEX.test(backgroundString);
-    isTextActiveInputValid = window.darkTime.common.HEX_REGEX.test(textActiveString);
-    isTextInactiveInputValid = window.darkTime.common.HEX_REGEX.test(textActiveString);
+    isBackgroundInputValid = common.HEX_REGEX.test(backgroundString);
+    isTextActiveInputValid = common.HEX_REGEX.test(textActiveString);
+    isTextInactiveInputValid = common.HEX_REGEX.test(textActiveString);
 
     if (isBackgroundInputValid) {
-      backgroundColor = backgroundString;
+      common.backgroundColor = backgroundString;
       backgroundErrorElement.style.display = 'none';
     } else {
-      backgroundErrorElement.textContent = window.darkTime.common.COLOR_FORMAT_ERROR_MESSAGE;
+      backgroundErrorElement.textContent = common.COLOR_FORMAT_ERROR_MESSAGE;
       backgroundErrorElement.style.display = 'block';
     }
     if (isTextActiveInputValid) {
-      textActiveColor = textActiveString;
+      common.textActiveColor = textActiveString;
       textActiveErrorElement.style.display = 'none';
     } else {
-      textActiveErrorElement.textContent = window.darkTime.common.COLOR_FORMAT_ERROR_MESSAGE;
+      textActiveErrorElement.textContent = common.COLOR_FORMAT_ERROR_MESSAGE;
       textActiveErrorElement.style.display = 'block';
     }
     if (isTextInactiveInputValid) {
-      textInactiveColor = textInactiveString;
+      common.textInactiveColor = textInactiveString;
       textInactiveErrorElement.style.display = 'none';
     } else {
-      textInactiveErrorElement.textContent = window.darkTime.common.COLOR_FORMAT_ERROR_MESSAGE;
+      textInactiveErrorElement.textContent = common.COLOR_FORMAT_ERROR_MESSAGE;
       textInactiveErrorElement.style.display = 'block';
     }
   }
 
   function updateElementColors() {
-    colorSwatchElement.style.backgroundColor = backgroundColor;
+    colorSwatchElement.style.backgroundColor = common.backgroundColor;
     isTextActiveColorShown = true;
     toggleTextColor();
     clearInterval(toggleTextColorInterval);
@@ -131,36 +153,37 @@
   }
 
   function toggleTextColor() {
-    const textColor = isTextActiveColorShown ? textActiveColor : textInactiveColor;
+    const textColor = isTextActiveColorShown ? common.textActiveColor : common.textInactiveColor;
     colorSwatchElement.style.color = textColor;
     isTextActiveColorShown = !isTextActiveColorShown;
   }
 
-  function recordColors() {
+  function recordSettings() {
     if (!isBackgroundInputValid || !isTextActiveInputValid || !isTextInactiveInputValid) {
       return;
     }
 
     chrome.storage.sync.set({
-      backgroundColor: backgroundColor,
-      textActiveColor: textActiveColor,
-      textInactiveColor: textInactiveColor,
+      uses24HourFormat: common.uses24HourFormat,
+      includesAmPm: common.includesAmPm,
+      includesDigitalTimeInTitle: common.includesDigitalTimeInTitle,
+      backgroundColor: common.backgroundColor,
+      textActiveColor: common.textActiveColor,
+      textInactiveColor: common.textInactiveColor,
     }, () => {
       if (!!chrome.runtime.lastError) {
         saveStatusElement.textContent = 'Error saving!: ' + chrome.runtime.lastError;
-        saveStatusElement.style.color = window.darkTime.common.ERROR_COLOR;
+        saveStatusElement.style.color = common.ERROR_COLOR;
       } else {
-        saveStatusElement.textContent = 'Colors saved!';
-        saveStatusElement.style.color = window.darkTime.common.SUCCESS_COLOR;
+        saveStatusElement.textContent = 'Settings saved!';
+        saveStatusElement.style.color = common.SUCCESS_COLOR;
         setTimeout(() => saveStatusElement.textContent = '', 1000);
       }
     });
   }
 
   function updateTime() {
-    // Update time
-    const date = new Date();
-    timeElement.textContent = date.toLocaleTimeString([], {timeStyle: 'short'});
+    timeElement.textContent = common.getTimeString();
     window.requestAnimationFrame(updateTime);
   }
 })();

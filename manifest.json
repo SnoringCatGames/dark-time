@@ -1,7 +1,7 @@
 {
   "name": "Dark Time",
-  "version": "1.1.2",
-  "description": "Replaces the new tab page. Shows the current time, with configurable background and text colors.",
+  "version": "1.2.1",
+  "description": "Replaces the new tab page. Shows the current time, with configurable settings.",
   "permissions": [
     "storage"
   ],
@@ -13,10 +13,10 @@
     "open_in_tab": false
   },
   "icons": {
-    "16": "images/icon-16.png",
-    "32": "images/icon-32.png",
-    "48": "images/icon-48.png",
-    "128": "images/icon-128.png"
+    "16": "images/clock_16_4.png",
+    "32": "images/clock_32_4.png",
+    "48": "images/clock_48_4.png",
+    "128": "images/clock_128_4.png"
   },
   "manifest_version": 2
 }

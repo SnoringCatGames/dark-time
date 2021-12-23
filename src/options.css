@@ -9,7 +9,8 @@ body {
   color: #000000;
 }
 
-.color-selector {
+.color-selector,
+.checkbox {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -28,11 +29,12 @@ body {
   font-size: 26pt;
 }
 
-.color-input {
-}
-
 .color-error {
   color: #DD2211;
+}
+
+#save-status {
+  min-height: 30px;
 }
 
 #background-color {
