@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
    height="297mm"
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="logo.svg">
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,17 +25,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="564.03767"
-     inkscape:cy="846.45526"
+     inkscape:zoom="1.979899"
+     inkscape:cx="145.7145"
+     inkscape:cy="168.69548"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="3840"
-     inkscape:window-height="2035"
-     inkscape:window-x="-13"
-     inkscape:window-y="-13"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="-1926"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -44,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,35 +54,2221 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="opacity:1;vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316286;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect817"
-       width="140.22917"
+       width="140.229"
        height="140.22917"
-       x="29.671131"
-       y="22.400297"
+       x="-1.9695122"
+       y="648.04913"
        inkscape:export-xdpi="23.18"
-       inkscape:export-ydpi="23.18" />
+       inkscape:export-ydpi="23.18"
+       rx="70.114502"
+       ry="70.114502"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_12.png" />
     <circle
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path815"
-       cx="99.785713"
-       cy="92.514885"
+       cx="68.145065"
+       cy="718.1637"
        r="58.39732"
        inkscape:export-xdpi="23.18"
-       inkscape:export-ydpi="23.18" />
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_12.png" />
     <path
        style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 99.785717,44.964834 V 86.65888"
+       d="m 68.145074,670.61366 v 41.69405"
        id="path819"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="23.18"
-       inkscape:export-ydpi="23.18" />
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_12.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9"
+       width="140.229"
+       height="140.22917"
+       x="423.48007"
+       y="648.04913"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="70.114502"
+       ry="70.114502"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_3.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2"
+       cx="493.59467"
+       cy="718.1637"
+       r="58.39732"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_3.png" />
     <path
        style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 133.76384,112.13217 104.85716,95.442885"
-       id="path819-4"
+       d="m 493.59461,670.61366 v 41.69405"
+       id="path819-0"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="23.18"
-       inkscape:export-ydpi="23.18" />
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_3.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 532.82918,718.16371 -33.37857,-1e-5"
+       id="path819-4-2-7-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_3.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8"
+       width="140.229"
+       height="140.22917"
+       x="139.84697"
+       y="648.04913"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       rx="70.114502"
+       ry="70.114502"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_1.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3"
+       cx="209.96155"
+       cy="718.1637"
+       r="58.39732"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_1.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 209.96159,670.61366 v 41.69405"
+       id="path819-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_1.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 229.57887,684.18558 -16.68929,28.90668"
+       id="path819-4-2-6-8-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_1.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89"
+       width="140.229"
+       height="140.22917"
+       x="281.66354"
+       y="648.04913"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="70.114502"
+       ry="70.114502"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_2.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36"
+       cx="351.77814"
+       cy="718.1637"
+       r="58.39732"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_2.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 351.7781,670.61366 v 41.69405"
+       id="path819-76"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_2.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 385.75623,698.54642 -28.90669,16.68927"
+       id="path819-4-2-5-7-34"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_2.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-3"
+       width="140.229"
+       height="140.22917"
+       x="-1.9695122"
+       y="789.86578"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="70.114502"
+       ry="70.114502"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_4.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-0"
+       cx="68.145065"
+       cy="859.98035"
+       r="58.39732"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_4.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 68.145074,812.43029 v 41.6941"
+       id="path819-42"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_4.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 102.12321,879.59769 73.216527,862.90839"
+       id="path819-4-2-5-9-1-0-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_4.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-3-2"
+       width="140.229"
+       height="140.22917"
+       x="2.4569187"
+       y="-186.53127"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="0"
+       ry="0"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_4.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-0-1"
+       cx="72.57151"
+       cy="-116.41666"
+       r="58.39732"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_4.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72.571516,-163.96668 v 41.69405"
+       id="path819-42-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_4.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 106.54966,-96.799344 77.642966,-113.48863"
+       id="path819-4-2-5-9-1-0-5-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_4.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-0"
+       width="140.229"
+       height="140.22917"
+       x="423.48007"
+       y="789.86578"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="70.114502"
+       ry="70.114502"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_7.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-7"
+       cx="493.59467"
+       cy="859.98035"
+       r="58.39732"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_7.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 493.59461,812.43029 v 41.6941"
+       id="path819-0-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_7.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 473.97731,893.95849 16.68929,-28.9067"
+       id="path819-4-2-4-2-0-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_7.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-1"
+       width="140.229"
+       height="140.22917"
+       x="139.84697"
+       y="789.86578"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="70.114502"
+       ry="70.114502"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_5.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-6"
+       cx="209.96155"
+       cy="859.98035"
+       r="58.39732"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_5.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 209.96159,812.43029 v 41.6941"
+       id="path819-4-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_5.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 229.57887,893.95849 212.8896,865.05179"
+       id="path819-4-2-6-2-0-88-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_5.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-8"
+       width="140.229"
+       height="140.22917"
+       x="281.66354"
+       y="789.86578"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="70.114502"
+       ry="70.114502"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_6.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-0"
+       cx="351.77814"
+       cy="859.98035"
+       r="58.39732"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_6.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 351.7781,812.43029 v 41.6941"
+       id="path819-76-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_6.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 351.77809,899.21499 10e-6,-33.3786"
+       id="path819-4-2-5-6-1-9-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_6.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-0"
+       width="140.229"
+       height="140.22917"
+       x="-1.9695122"
+       y="931.6825"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="70.114502"
+       ry="70.114502"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_8.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-4"
+       cx="68.145065"
+       cy="1001.7971"
+       r="58.39732"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_8.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 68.145074,954.24699 v 41.6941"
+       id="path819-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_8.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 34.166935,1021.4144 28.90669,-16.6893"
+       id="path819-4-2-5-9-1-17"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_8.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-4"
+       width="140.229"
+       height="140.22917"
+       x="423.48007"
+       y="931.6825"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="70.114502"
+       ry="70.114502"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_11.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-2"
+       cx="493.59467"
+       cy="1001.7971"
+       r="58.39732"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_11.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 493.59461,954.24699 v 41.6941"
+       id="path819-0-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_11.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 473.97733,967.81889 16.68927,28.9067"
+       id="path819-4-2-4-9-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_11.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-7"
+       width="140.229"
+       height="140.22917"
+       x="139.84697"
+       y="931.6825"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="70.114502"
+       ry="70.114502"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_9.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-3"
+       cx="209.96155"
+       cy="1001.7971"
+       r="58.39732"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_9.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 209.96159,954.24699 v 41.6941"
+       id="path819-4-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_9.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 170.72701,1001.7971 h 33.37856"
+       id="path819-4-2-6-2-6-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_9.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:6.25316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-0"
+       width="140.229"
+       height="140.22917"
+       x="281.66354"
+       y="931.6825"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="70.114502"
+       ry="70.114502"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_10.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-9"
+       cx="351.77814"
+       cy="1001.7971"
+       r="58.39732"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_10.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 351.7781,954.24699 v 41.6941"
+       id="path819-76-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_10.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 317.79996,982.17979 28.90668,16.6893"
+       id="path819-4-2-5-6-38-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_128_10.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1.56329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-1"
+       width="35.057251"
+       height="35.057293"
+       x="5.1076241"
+       y="82.476646"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="17.528625"
+       ry="17.528625"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_12.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-45"
+       cx="22.636265"
+       cy="100.00527"
+       r="14.59933"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_12.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 22.636267,88.11778 V 98.54129"
+       id="path819-80"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_12.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1.56329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-6"
+       width="35.057251"
+       height="35.057293"
+       x="111.46999"
+       y="82.476646"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="17.528625"
+       ry="17.528625"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_3.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-77"
+       cx="128.99866"
+       cy="100.00527"
+       r="14.59933"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_3.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 128.99865,88.11778 V 98.54129"
+       id="path819-0-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_3.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 138.80729,100.00529 h -8.34464"
+       id="path819-4-2-7-0-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_3.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1.56329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-3"
+       width="35.057251"
+       height="35.057293"
+       x="40.561741"
+       y="82.476646"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       rx="17.528625"
+       ry="17.528625"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_1.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-9"
+       cx="58.090382"
+       cy="100.00527"
+       r="14.59933"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_1.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 58.090397,88.11778 V 98.54129"
+       id="path819-4-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_1.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 62.994717,91.51076 -4.172323,7.22667"
+       id="path819-4-2-6-8-8-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_1.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1.56329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-1"
+       width="35.057251"
+       height="35.057293"
+       x="76.015877"
+       y="82.476646"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="17.528625"
+       ry="17.528625"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_2.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-3"
+       cx="93.54454"
+       cy="100.00527"
+       r="14.59933"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_2.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 93.544521,88.11778 V 98.54129"
+       id="path819-76-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_2.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 102.03905,95.10097 -7.226669,4.17232"
+       id="path819-4-2-5-7-34-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_2.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1.56329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-3-1"
+       width="35.057251"
+       height="35.057293"
+       x="5.1076241"
+       y="117.93081"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="17.528625"
+       ry="17.528625"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_4.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-0-6"
+       cx="22.636265"
+       cy="135.45944"
+       r="14.59933"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_4.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 22.636267,123.57195 v 10.42351"
+       id="path819-42-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_4.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 31.130801,140.36378 -7.226669,-4.17232"
+       id="path819-4-2-5-9-1-0-5-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_4.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1.56329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-0-6"
+       width="35.057251"
+       height="35.057293"
+       x="111.46999"
+       y="117.93081"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="17.528625"
+       ry="17.528625"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_7.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-7-0"
+       cx="128.99866"
+       cy="135.45944"
+       r="14.59933"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_7.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 128.99865,123.57195 v 10.42351"
+       id="path819-0-9-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_7.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 124.09432,143.95399 4.17232,-7.22667"
+       id="path819-4-2-4-2-0-8-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_7.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1.56329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-1-0"
+       width="35.057251"
+       height="35.057293"
+       x="40.561741"
+       y="117.93081"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="17.528625"
+       ry="17.528625"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_5.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-6-2"
+       cx="58.090382"
+       cy="135.45944"
+       r="14.59933"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_5.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.090397,123.57195 v 10.42351"
+       id="path819-4-0-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_5.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 62.994717,143.954 -4.172318,-7.22668"
+       id="path819-4-2-6-2-0-88-4-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_5.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1.56329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-8-1"
+       width="35.057251"
+       height="35.057293"
+       x="76.015877"
+       y="117.93081"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="17.528625"
+       ry="17.528625"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_6.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-0-6"
+       cx="93.54454"
+       cy="135.45944"
+       r="14.59933"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_6.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 93.544521,123.57195 v 10.42351"
+       id="path819-76-9-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_6.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 93.544521,145.2681 v -8.34464"
+       id="path819-4-2-5-6-1-9-5-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_6.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1.56329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-0-8"
+       width="35.057251"
+       height="35.057293"
+       x="5.1076241"
+       y="153.38498"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="17.528625"
+       ry="17.528625"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_8.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-4-8"
+       cx="22.636265"
+       cy="170.91367"
+       r="14.59933"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_8.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 22.636267,159.02612 v 10.42351"
+       id="path819-8-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_8.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 14.141732,175.81795 7.226675,-4.17232"
+       id="path819-4-2-5-9-1-17-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_8.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1.56329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-4-7"
+       width="35.057251"
+       height="35.057293"
+       x="111.46999"
+       y="153.38498"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="17.528625"
+       ry="17.528625"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_11.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-2-6"
+       cx="128.99866"
+       cy="170.91367"
+       r="14.59933"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_11.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 128.99865,159.02612 v 10.42351"
+       id="path819-0-6-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_11.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 124.09433,162.41909 4.17231,7.22668"
+       id="path819-4-2-4-9-8-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_11.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1.56329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-7-8"
+       width="35.057251"
+       height="35.057293"
+       x="40.561741"
+       y="153.38498"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="17.528625"
+       ry="17.528625"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_9.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-3-7"
+       cx="58.090382"
+       cy="170.91367"
+       r="14.59933"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_9.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.090397,159.02612 v 10.42351"
+       id="path819-4-4-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_9.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 48.281752,170.91363 h 8.34464"
+       id="path819-4-2-6-2-6-1-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_9.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1.56329;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-0-9"
+       width="35.057251"
+       height="35.057293"
+       x="76.015877"
+       y="153.38498"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="17.528625"
+       ry="17.528625"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_10.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-9-7"
+       cx="93.54454"
+       cy="170.91367"
+       r="14.59933"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_10.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 93.544521,159.02612 v 10.42351"
+       id="path819-76-1-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_10.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 85.049985,166.00931 7.226666,4.17232"
+       id="path819-4-2-5-6-38-2-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_32_10.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:2.34493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-1-4"
+       width="52.585876"
+       height="52.585938"
+       x="3.9632165"
+       y="211.00159"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="26.292938"
+       ry="26.292938"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_12.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-45-2"
+       cx="30.256178"
+       cy="237.29453"
+       r="21.898994"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_12.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 30.25619,219.46327 v 15.63527"
+       id="path819-80-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_12.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:2.34493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-6-7"
+       width="52.585876"
+       height="52.585938"
+       x="163.50679"
+       y="211.00159"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="26.292938"
+       ry="26.292938"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_3.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-77-5"
+       cx="189.79977"
+       cy="237.29453"
+       r="21.898994"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_3.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 189.79976,219.46327 v 15.63527"
+       id="path819-0-5-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_3.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 204.51272,237.29454 H 191.99576"
+       id="path819-4-2-7-0-4-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_3.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:2.34493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-3-6"
+       width="52.585876"
+       height="52.585938"
+       x="57.14439"
+       y="211.00159"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       rx="26.292938"
+       ry="26.292938"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_1.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-9-6"
+       cx="83.437378"
+       cy="237.29453"
+       r="21.898994"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_1.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 83.437385,219.46327 v 15.63527"
+       id="path819-4-3-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_1.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 90.793865,224.55274 84.53537,235.39275"
+       id="path819-4-2-6-8-8-5-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_1.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:2.34493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-1-76"
+       width="52.585876"
+       height="52.585938"
+       x="110.32559"
+       y="211.00159"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="26.292938"
+       ry="26.292938"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_2.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-3-82"
+       cx="136.61862"
+       cy="237.29453"
+       r="21.898994"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_2.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 136.61857,219.46327 v 15.63527"
+       id="path819-76-2-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_2.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 149.36036,229.93806 -10.84,6.25848"
+       id="path819-4-2-5-7-34-7-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_2.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:2.34493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-3-1-28"
+       width="52.585876"
+       height="52.585938"
+       x="3.9632165"
+       y="264.18283"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="26.292938"
+       ry="26.292938"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_4.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-0-6-4"
+       cx="30.256178"
+       cy="290.47577"
+       r="21.898994"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_4.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 30.25619,272.64453 V 288.2798"
+       id="path819-42-4-56"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_4.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 42.997985,297.83227 32.15798,291.57379"
+       id="path819-4-2-5-9-1-0-5-1-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_4.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:2.34493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-0-6-4"
+       width="52.585876"
+       height="52.585938"
+       x="163.50679"
+       y="264.18283"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="26.292938"
+       ry="26.292938"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_7.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-7-0-5"
+       cx="189.79977"
+       cy="290.47577"
+       r="21.898994"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_7.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 189.79976,272.64453 V 288.2798"
+       id="path819-0-9-2-69"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_7.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 182.44326,303.21759 6.25849,-10.84001"
+       id="path819-4-2-4-2-0-8-4-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_7.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:2.34493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-1-0-5"
+       width="52.585876"
+       height="52.585938"
+       x="57.14439"
+       y="264.18283"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="26.292938"
+       ry="26.292938"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_5.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-6-2-9"
+       cx="83.437378"
+       cy="290.47577"
+       r="21.898994"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_5.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 83.437385,272.64453 V 288.2798"
+       id="path819-4-0-4-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_5.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 90.793865,303.2176 -6.25848,-10.84002"
+       id="path819-4-2-6-2-0-88-4-5-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_5.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:2.34493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-8-1-3"
+       width="52.585876"
+       height="52.585938"
+       x="110.32559"
+       y="264.18283"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="26.292938"
+       ry="26.292938"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_6.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-0-6-72"
+       cx="136.61862"
+       cy="290.47577"
+       r="21.898994"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_6.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 136.61857,272.64453 V 288.2798"
+       id="path819-76-9-1-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_6.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 136.61857,305.18876 V 292.67179"
+       id="path819-4-2-5-6-1-9-5-7-83"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_6.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:2.34493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-0-8-1"
+       width="52.585876"
+       height="52.585938"
+       x="3.9632165"
+       y="317.36407"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="26.292938"
+       ry="26.292938"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_8.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-4-8-6"
+       cx="30.256178"
+       cy="343.6571"
+       r="21.898994"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_8.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 30.25619,325.82578 v 15.63527"
+       id="path819-8-3-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_8.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 17.51438,351.01353 28.3544,344.75505"
+       id="path819-4-2-5-9-1-17-7-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_8.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:2.34493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-4-7-79"
+       width="52.585876"
+       height="52.585938"
+       x="163.50679"
+       y="317.36407"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="26.292938"
+       ry="26.292938"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_11.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-2-6-4"
+       cx="189.79977"
+       cy="343.6571"
+       r="21.898994"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_11.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 189.79976,325.82578 v 15.63527"
+       id="path819-0-6-9-38"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_11.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 182.44328,330.91524 6.25847,10.84002"
+       id="path819-4-2-4-9-8-5-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_11.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:2.34493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-7-8-6"
+       width="52.585876"
+       height="52.585938"
+       x="57.14439"
+       y="317.36407"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="26.292938"
+       ry="26.292938"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_9.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-3-7-7"
+       cx="83.437378"
+       cy="343.6571"
+       r="21.898994"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_9.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 83.437385,325.82578 v 15.63527"
+       id="path819-4-4-5-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_9.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 68.72441,343.65705 H 81.24137"
+       id="path819-4-2-6-2-6-1-9-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_9.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:2.34493;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-0-9-4"
+       width="52.585876"
+       height="52.585938"
+       x="110.32559"
+       y="317.36407"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="26.292938"
+       ry="26.292938"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_10.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-9-7-8"
+       cx="136.61862"
+       cy="343.6571"
+       r="21.898994"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_10.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 136.61857,325.82578 v 15.63527"
+       id="path819-76-1-1-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_10.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 123.87676,336.30057 10.84,6.25848"
+       id="path819-4-2-5-6-38-2-3-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_48_10.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.781645;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-1-2"
+       width="17.528625"
+       height="17.528646"
+       x="5.8184204"
+       y="7.9152465"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="8.7643127"
+       ry="8.7643127"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_12.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-45-0"
+       cx="14.582745"
+       cy="16.67956"
+       r="7.299665"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_12.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 14.582742,10.7358 v 5.21175"
+       id="path819-80-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_12.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.781645;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-6-6"
+       width="17.528625"
+       height="17.528646"
+       x="58.999615"
+       y="7.9152465"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="8.7643127"
+       ry="8.7643127"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_3.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-77-3"
+       cx="67.763939"
+       cy="16.67956"
+       r="7.299665"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_3.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 67.763937,10.7358 v 5.21175"
+       id="path819-0-5-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_3.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72.668257,16.67956 h -4.17232"
+       id="path819-4-2-7-0-4-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_3.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.781645;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-3-8"
+       width="17.528625"
+       height="17.528646"
+       x="23.545483"
+       y="7.9152465"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       rx="8.7643127"
+       ry="8.7643127"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_1.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-9-7"
+       cx="32.309795"
+       cy="16.67956"
+       r="7.299665"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_1.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 32.309807,10.7358 v 5.21175"
+       id="path819-4-3-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_1.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 34.761967,12.43229 -2.08616,3.61334"
+       id="path819-4-2-6-8-8-5-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_1.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.781645;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-1-8"
+       width="17.528625"
+       height="17.528646"
+       x="41.272549"
+       y="7.9152465"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="8.7643127"
+       ry="8.7643127"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_2.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-3-81"
+       cx="50.036884"
+       cy="16.67956"
+       r="7.299665"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_2.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 50.036872,10.7358 v 5.21175"
+       id="path819-76-2-40"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_2.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 54.284137,14.2274 -3.613335,2.08616"
+       id="path819-4-2-5-7-34-7-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_2.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.781645;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-3-1-1"
+       width="17.528625"
+       height="17.528646"
+       x="5.8184204"
+       y="25.642328"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="8.7643127"
+       ry="8.7643127"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_4.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-0-6-2"
+       cx="14.582745"
+       cy="34.406639"
+       r="7.299665"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_4.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 14.582742,28.46288 v 5.21176"
+       id="path819-42-4-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_4.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 18.830012,36.8588 15.216677,34.77264"
+       id="path819-4-2-5-9-1-0-5-1-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_4.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.781645;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-0-6-9"
+       width="17.528625"
+       height="17.528646"
+       x="58.999615"
+       y="25.642328"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="8.7643127"
+       ry="8.7643127"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_7.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-7-0-8"
+       cx="67.763939"
+       cy="34.406639"
+       r="7.299665"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_7.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 67.763937,28.46288 v 5.21176"
+       id="path819-0-9-2-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_7.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 65.311772,38.6539 2.08616,-3.61333"
+       id="path819-4-2-4-2-0-8-4-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_7.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.781645;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-1-0-6"
+       width="17.528625"
+       height="17.528646"
+       x="23.545483"
+       y="25.642328"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="8.7643127"
+       ry="8.7643127"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_5.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-6-2-2"
+       cx="32.309795"
+       cy="34.406639"
+       r="7.299665"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_5.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 32.309807,28.46288 v 5.21176"
+       id="path819-4-0-4-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_5.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 34.761967,38.65391 32.675812,35.04057"
+       id="path819-4-2-6-2-0-88-4-5-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_5.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.781645;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-8-1-50"
+       width="17.528625"
+       height="17.528646"
+       x="41.272549"
+       y="25.642328"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="8.7643127"
+       ry="8.7643127"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_6.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-0-6-1"
+       cx="50.036884"
+       cy="34.406639"
+       r="7.299665"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_6.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 50.036872,28.46288 v 5.21176"
+       id="path819-76-9-1-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_6.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50.036872,39.31096 V 35.13864"
+       id="path819-4-2-5-6-1-9-5-7-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_6.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.781645;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-0-8-2"
+       width="17.528625"
+       height="17.528646"
+       x="5.8184204"
+       y="43.369408"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="8.7643127"
+       ry="8.7643127"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_8.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-4-8-8"
+       cx="14.582745"
+       cy="52.133751"
+       r="7.299665"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_8.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 14.582742,46.18997 v 5.21175"
+       id="path819-8-3-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_8.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 10.335477,54.58588 3.613335,-2.08616"
+       id="path819-4-2-5-9-1-17-7-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_8.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.781645;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-4-7-5"
+       width="17.528625"
+       height="17.528646"
+       x="58.999615"
+       y="43.369408"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="8.7643127"
+       ry="8.7643127"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_11.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-2-6-0"
+       cx="67.763939"
+       cy="52.133751"
+       r="7.299665"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_11.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 67.763937,46.18997 v 5.21175"
+       id="path819-0-6-9-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_11.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 65.311777,47.88645 2.086155,3.61334"
+       id="path819-4-2-4-9-8-5-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_11.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.781645;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-7-8-8"
+       width="17.528625"
+       height="17.528646"
+       x="23.545483"
+       y="43.369408"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="8.7643127"
+       ry="8.7643127"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_9.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-3-7-4"
+       cx="32.309795"
+       cy="52.133751"
+       r="7.299665"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_9.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 32.309807,46.18997 v 5.21175"
+       id="path819-4-4-5-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_9.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 27.405487,52.13372 h 4.17232"
+       id="path819-4-2-6-2-6-1-9-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_9.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.781645;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-0-9-2"
+       width="17.528625"
+       height="17.528646"
+       x="41.272549"
+       y="43.369408"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="8.7643127"
+       ry="8.7643127"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_10.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-9-7-3"
+       cx="50.036884"
+       cy="52.133751"
+       r="7.299665"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_10.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 50.036872,46.18997 v 5.21175"
+       id="path819-76-1-1-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_10.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 45.789602,49.68157 3.613335,2.08616"
+       id="path819-4-2-5-6-38-2-3-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_16_10.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.12658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-1-7"
+       width="70.114502"
+       height="70.114586"
+       x="6.0260468"
+       y="391.91132"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="35.057251"
+       ry="35.057251"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_12.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-45-4"
+       cx="41.083328"
+       cy="426.96857"
+       r="29.19866"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_12.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 41.083323,403.19361 v 20.847"
+       id="path819-80-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_12.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.12658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-6-8"
+       width="70.114502"
+       height="70.114586"
+       x="218.75081"
+       y="391.91132"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="35.057251"
+       ry="35.057251"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_3.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-77-1"
+       cx="253.80812"
+       cy="426.96857"
+       r="29.19866"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_3.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 253.80811,403.19361 v 20.847"
+       id="path819-0-5-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_3.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 273.42539,426.96861 H 256.73611"
+       id="path819-4-2-7-0-4-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_3.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.12658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-3-0"
+       width="70.114502"
+       height="70.114586"
+       x="76.93428"
+       y="391.91132"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       rx="35.057251"
+       ry="35.057251"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_1.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-9-8"
+       cx="111.99155"
+       cy="426.96857"
+       r="29.19866"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_1.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 111.99158,403.19361 v 20.847"
+       id="path819-4-3-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_1.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 121.80022,409.97955 -8.34464,14.45336"
+       id="path819-4-2-6-8-8-5-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.184933"
+       inkscape:export-ydpi="23.184933"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_1.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.12658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-1-7"
+       width="70.114502"
+       height="70.114586"
+       x="147.84254"
+       y="391.91132"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="35.057251"
+       ry="35.057251"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_2.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-3-8"
+       cx="182.89986"
+       cy="426.96857"
+       r="29.19866"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_2.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 182.89985,403.19361 v 20.847"
+       id="path819-76-2-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_2.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 199.88891,417.15997 -14.45334,8.34464"
+       id="path819-4-2-5-7-34-7-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_2.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.12658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-3-1-2"
+       width="70.114502"
+       height="70.114586"
+       x="6.0260468"
+       y="462.81964"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="35.057251"
+       ry="35.057251"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_4.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-0-6-3"
+       cx="41.083328"
+       cy="497.87689"
+       r="29.19866"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_4.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 41.083323,474.10195 v 20.847"
+       id="path819-42-4-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_4.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.072403,507.68561 -14.45334,-8.34466"
+       id="path819-4-2-5-9-1-0-5-1-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_4.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.12658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-0-6-3"
+       width="70.114502"
+       height="70.114586"
+       x="218.75081"
+       y="462.81964"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="35.057251"
+       ry="35.057251"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_7.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-7-0-4"
+       cx="253.80812"
+       cy="497.87689"
+       r="29.19866"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_7.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 253.80811,474.10195 v 20.847"
+       id="path819-0-9-2-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_7.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 243.99945,514.86601 8.34464,-14.45334"
+       id="path819-4-2-4-2-0-8-4-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_7.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.12658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-1-0-0"
+       width="70.114502"
+       height="70.114586"
+       x="76.93428"
+       y="462.81964"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="35.057251"
+       ry="35.057251"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_5.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-6-2-8"
+       cx="111.99155"
+       cy="497.87689"
+       r="29.19866"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_5.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 111.99158,474.10195 v 20.847"
+       id="path819-4-0-4-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_5.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 121.80022,514.86605 -8.34464,-14.45336"
+       id="path819-4-2-6-2-0-88-4-5-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_5.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.12658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-8-1-5"
+       width="70.114502"
+       height="70.114586"
+       x="147.84254"
+       y="462.81964"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="35.057251"
+       ry="35.057251"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_6.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-0-6-7"
+       cx="182.89986"
+       cy="497.87689"
+       r="29.19866"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_6.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 182.89985,474.10195 v 20.847"
+       id="path819-76-9-1-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_6.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 182.89985,517.49423 V 500.80495"
+       id="path819-4-2-5-6-1-9-5-7-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_6.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.12658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-0-8-0"
+       width="70.114502"
+       height="70.114586"
+       x="6.0260468"
+       y="533.72797"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="35.057251"
+       ry="35.057251"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_8.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-4-8-2"
+       cx="41.083328"
+       cy="568.78534"
+       r="29.19866"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_8.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 41.083323,545.01027 v 20.84702"
+       id="path819-8-3-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_8.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24.094263,578.59393 14.45334,-8.34464"
+       id="path819-4-2-5-9-1-17-7-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_8.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.12658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-9-4-7-7"
+       width="70.114502"
+       height="70.114586"
+       x="218.75081"
+       y="533.72797"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="35.057251"
+       ry="35.057251"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_11.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-2-2-6-7"
+       cx="253.80812"
+       cy="568.78534"
+       r="29.19866"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_11.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 253.80811,545.01027 v 20.84702"
+       id="path819-0-6-9-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_11.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 243.99947,551.79621 8.34462,14.45336"
+       id="path819-4-2-4-9-8-5-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_11.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.12658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-8-7-8-3"
+       width="70.114502"
+       height="70.114586"
+       x="76.93428"
+       y="533.72797"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="35.057251"
+       ry="35.057251"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_9.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-3-3-7-0"
+       cx="111.99155"
+       cy="568.78534"
+       r="29.19866"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_9.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 111.99158,545.01027 v 20.84702"
+       id="path819-4-4-5-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_9.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 92.374301,568.78529 H 109.06358"
+       id="path819-4-2-6-2-6-1-9-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_9.png" />
+    <rect
+       style="vector-effect:none;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.12658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect817-89-0-9-0"
+       width="70.114502"
+       height="70.114586"
+       x="147.84254"
+       y="533.72797"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       rx="35.057251"
+       ry="35.057251"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_10.png" />
+    <circle
+       style="vector-effect:none;fill:none;fill-opacity:1;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path815-36-9-7-4"
+       cx="182.89986"
+       cy="568.78534"
+       r="29.19866"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_10.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 182.89985,545.01027 v 20.84702"
+       id="path819-76-1-1-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_10.png" />
+    <path
+       style="fill:none;stroke:#777777;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 165.91077,558.97667 14.45334,8.34464"
+       id="path819-4-2-5-6-38-2-3-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="23.18"
+       inkscape:export-ydpi="23.18"
+       inkscape:export-filename="C:\Users\lsl\Repositories\dark-time\images\clock_64_10.png" />
   </g>
 </svg>
