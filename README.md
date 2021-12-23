@@ -4,4 +4,4 @@ _[Check it out on the Chrome Web Store!](https://chrome.google.com/webstore/deta
 
 A Chrome extension that replaces the new tab page.
 
-Shows the current time, with configurable background and text colors.
+Shows the current time, with configurable settings (time format, tab text, background and text colors).
