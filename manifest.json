@@ -1,6 +1,6 @@
 {
   "name": "Dark Time",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Replaces the new tab page. Shows the current time, with configurable settings.",
   "permissions": [
     "storage"
@@ -18,5 +18,5 @@
     "48": "images/clock_48_4.png",
     "128": "images/clock_128_4.png"
   },
-  "manifest_version": 2
+  "manifest_version": 3
 }
