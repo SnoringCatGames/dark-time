@@ -6,6 +6,11 @@
 
   const common = window.darkTime.common
 
+  common.SHOWS_ANALOG_DISPLAY_DEFAULT = true;
+  common.SHOWS_HOUR_MARKERS_DEFAULT = true;
+  common.SHOWS_SECOND_HAND_DEFAULT = true;
+  common.SHOWS_DISCRETE_HAND_TICKS_DEFAULT = false;
+  common.SHOWS_SHADOWS_DEFAULT = true;
   common.USES_24_HOUR_FORMAT_DEFAULT = false;
   common.INCLUDES_AM_PM_DEFAULT = false;
   common.INCLUDES_DIGITAL_TIME_IN_TITLE_DEFAULT = false;
@@ -35,17 +40,22 @@
   ];
   common.CLOCK_ICON_PATH_PREFIX = '/images/clock_';
   common.ICON_SIZES = [
-      16,
-      32,
-      48,
-      64,
-      128,
+    16,
+    32,
+    48,
+    64,
+    128,
   ];
 
   common.backgroundColor = common.BACKGROUND_COLOR_DEFAULT;
   common.textActiveColor = common.TEXT_ACTIVE_COLOR_DEFAULT;
   common.textInactiveColor = common.TEXT_INACTIVE_COLOR_DEFAULT;
 
+  common.showsAnalogDisplay = common.SHOWS_ANALOG_DISPLAY_DEFAULT;
+  common.showsHourMarkers = common.SHOWS_HOUR_MARKERS_DEFAULT;
+  common.showsSecondHand = common.SHOWS_SECOND_HAND_DEFAULT;
+  common.showsDiscreteHandTicks = common.SHOWS_DISCRETE_HAND_TICKS_DEFAULT;
+  common.showsShadows = common.SHOWS_SHADOWS_DEFAULT;
   common.uses24HourFormat = common.USES_24_HOUR_FORMAT_DEFAULT;
   common.includesAmPm = common.INCLUDES_AM_PM_DEFAULT;
   common.includesDigitalTimeInTitle = common.INCLUDES_DIGITAL_TIME_IN_TITLE_DEFAULT;
@@ -57,9 +67,9 @@
   function getTimeString() {
     const date = new Date();
     if (common.uses24HourFormat) {
-      return date.toLocaleTimeString([], {timeStyle: 'short', hour12: false});
+      return date.toLocaleTimeString([], { timeStyle: 'short', hour12: false });
     } else {
-      let bodyTimeString = date.toLocaleTimeString([], {timeStyle: 'short'});
+      let bodyTimeString = date.toLocaleTimeString([], { timeStyle: 'short' });
       if (!common.includesAmPm) {
         bodyTimeString = bodyTimeString.replace(/ (am|pm)$/i, '');
       }

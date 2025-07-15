@@ -1,115 +1,125 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
 
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Dark Time options</title>
 
-  <link rel="icon"
-        type="image/png"
-        href="/images/clock_16_0.png"
-        sizes="16x16">
-  <link rel="icon"
-        type="image/png"
-        href="/images/clock_32_0.png"
-        sizes="32x32">
-  <link rel="icon"
-        type="image/png"
-        href="/images/clock_48_0.png"
-        sizes="48x48">
-  <link rel="icon"
-        type="image/png"
-        href="/images/clock_64_0.png"
-        sizes="64x64">
-  <link rel="icon"
-        type="image/png"
-        href="/images/clock_128_0.png"
-        sizes="128x128">
+  <link rel="icon" type="image/png" href="/images/clock_16_0.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/images/clock_32_0.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/clock_48_0.png" sizes="48x48">
+  <link rel="icon" type="image/png" href="/images/clock_64_0.png" sizes="64x64">
+  <link rel="icon" type="image/png" href="/images/clock_128_0.png" sizes="128x128">
 
-  <link rel="stylesheet"
-        type="text/css"
-        href="/src/options.css">
-  <link href='https://fonts.googleapis.com/css?family=Nunito:400,700'
-        rel='stylesheet'
-        type='text/css'>
+  <link rel="stylesheet" type="text/css" href="/src/options.css">
+  <link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet'
+    type='text/css'>
 
-  <script defer
-          type="text/javascript"
-          src="/src/common.js"></script>
-  <script defer
-          type="text/javascript"
-          src="/src/options.js"></script>
+  <script defer type="text/javascript" src="/src/common.js"></script>
+  <script defer type="text/javascript" src="/src/options.js"></script>
 </head>
+
 <body>
-<div id="color-swatch">
-  <div id="time"></div>
-</div>
+  <div id="color-swatch">
+    <div id="time"></div>
+  </div>
 
-<div id="save-status"></div>
+  <div id="save-status"></div>
 
-<div id="reset">
-  <button>Restore defaults</button>
-</div>
+  <div id="reset">
+    <button>Restore defaults</button>
+  </div>
 
-<div id="uses-24-hour-format"
-     class="checkbox">
-  <label>
-    <input type="checkbox">
-    Use 24-hour format
-  </label>
-  <div class="color-error"></div>
-</div>
+  <div id="uses-analog-display" class="checkbox">
+    <label>
+      <input type="checkbox">
+      Analog display
+    </label>
+    <div class="color-error"></div>
+  </div>
 
-<div id="includes-am-pm"
-     class="checkbox">
-  <label>
-    <input type="checkbox"
-           checked>
-    Show AM/PM
-  </label>
-  <div class="color-error"></div>
-</div>
+  <div id="uses-hour-markers" class="checkbox">
+    <label>
+      <input type="checkbox">
+      Hour markers
+    </label>
+    <div class="color-error"></div>
+  </div>
 
-<div id="includes-digital-time-in-title"
-     class="checkbox">
-  <label>
-    <input type="checkbox">
-    Show time in tab
-  </label>
-  <div class="color-error"></div>
-</div>
+  <div id="uses-second-hand" class="checkbox">
+    <label>
+      <input type="checkbox">
+      Second hand
+    </label>
+    <div class="color-error"></div>
+  </div>
 
-<div id="background-color"
-     class="color-selector">
-  <label>
-    <input type="color"
-           value="#222222">
-    Background
-  </label>
-  <div class="color-error"></div>
-</div>
+  <div id="uses-discrete-hand-ticks" class="checkbox">
+    <label>
+      <input type="checkbox">
+      Discrete hand ticks
+    </label>
+    <div class="color-error"></div>
+  </div>
 
-<div id="text-active-color"
-     class="color-selector">
-  <label>
-    <input type="color"
-           value="#777777">
-    Active text
-  </label>
-  <div class="color-error"></div>
-</div>
+  <div id="uses-shadows" class="checkbox">
+    <label>
+      <input type="checkbox">
+      Shadows
+    </label>
+    <div class="color-error"></div>
+  </div>
 
-<div id="text-inactive-color"
-     class="color-selector">
-  <label>
-    <input type="color"
-           value="#333333">
-    Inactive text
-  </label>
-  <div class="color-error"></div>
-</div>
+  <div id="uses-24-hour-format" class="checkbox">
+    <label>
+      <input type="checkbox">
+      24-hour format
+    </label>
+    <div class="color-error"></div>
+  </div>
+
+  <div id="includes-am-pm" class="checkbox">
+    <label>
+      <input type="checkbox" checked>
+      Show AM/PM
+    </label>
+    <div class="color-error"></div>
+  </div>
+
+  <div id="includes-digital-time-in-title" class="checkbox">
+    <label>
+      <input type="checkbox">
+      Show time in tab
+    </label>
+    <div class="color-error"></div>
+  </div>
+
+  <div id="background-color" class="color-selector">
+    <label>
+      <input type="color" value="#222222">
+      Background
+    </label>
+    <div class="color-error"></div>
+  </div>
+
+  <div id="text-active-color" class="color-selector">
+    <label>
+      <input type="color" value="#777777">
+      Active text
+    </label>
+    <div class="color-error"></div>
+  </div>
+
+  <div id="text-inactive-color" class="color-selector">
+    <label>
+      <input type="color" value="#333333">
+      Inactive text
+    </label>
+    <div class="color-error"></div>
+  </div>
 </body>
+
 </html>
