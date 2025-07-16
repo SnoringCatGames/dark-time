@@ -20,6 +20,7 @@
 
   common.INTERPUNCT = '·';
 
+  // Gray.
   // common.BACKGROUND_COLOR_DEFAULT = '#222222';
   // common.TEXT_ACTIVE_COLOR_DEFAULT = '#777777';
   // common.TEXT_INACTIVE_COLOR_DEFAULT = '#333333';
@@ -28,9 +29,15 @@
   // common.TEXT_ACTIVE_COLOR_DEFAULT = '#585751';
   // common.TEXT_INACTIVE_COLOR_DEFAULT = '#363635';
 
+  // Blue and yellow
   common.BACKGROUND_COLOR_DEFAULT = '#1D1F2F';
   common.TEXT_ACTIVE_COLOR_DEFAULT = '#94814C';
   common.TEXT_INACTIVE_COLOR_DEFAULT = '#30385A';
+
+  // Green and yellow.
+  // common.BACKGROUND_COLOR_DEFAULT = '#18251A';
+  // common.TEXT_ACTIVE_COLOR_DEFAULT = '#B3A861';
+  // common.TEXT_INACTIVE_COLOR_DEFAULT = '#253C2B';
 
   common.ERROR_COLOR = '#DD2211';
   common.SUCCESS_COLOR = '#22BB44';
