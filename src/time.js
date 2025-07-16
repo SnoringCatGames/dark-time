@@ -202,6 +202,8 @@
     const secondHandLength = 150 * scale;
     const hourMarkerDistance = 163 * scale;
 
+    const centerGapLength = 15 * scale;
+
     const hourHandWidth = 7 * scale;
     const minuteHandWidth = 3 * scale;
     const secondHandWidth = 1.5 * scale;
@@ -231,6 +233,13 @@
 
     const centerX = analogTimeContainer.width / 2;
     const centerY = analogTimeContainer.height / 2;
+
+    const hourHandStartPointX = centerX + centerGapLength * Math.cos(hourHandAngle - HALF_PI);
+    const hourHandStartPointY = centerY + centerGapLength * Math.sin(hourHandAngle - HALF_PI);
+    const minuteHandStartPointX = centerX + centerGapLength * Math.cos(minuteHandAngle - HALF_PI);
+    const minuteHandStartPointY = centerY + centerGapLength * Math.sin(minuteHandAngle - HALF_PI);
+    const secondHandStartPointX = centerX + centerGapLength * Math.cos(secondHandAngle - HALF_PI);
+    const secondHandStartPointY = centerY + centerGapLength * Math.sin(secondHandAngle - HALF_PI);
 
     const hourHandEndPointX = centerX + hourHandLength * Math.cos(hourHandAngle - HALF_PI);
     const hourHandEndPointY = centerY + hourHandLength * Math.sin(hourHandAngle - HALF_PI);
@@ -276,7 +285,7 @@
         context.strokeStyle = shadowColor;
         context.filter = 'blur(2px)';
         context.beginPath();
-        context.moveTo(centerX + handShadowOffsetX, centerY + handShadowOffsetY);
+        context.moveTo(secondHandStartPointX + handShadowOffsetX, secondHandStartPointY + handShadowOffsetY);
         context.lineTo(secondHandEndPointX + handShadowOffsetX, secondHandEndPointY + handShadowOffsetY);
         context.stroke();
       }
@@ -284,7 +293,7 @@
       context.strokeStyle = common.textActiveColor;
       context.filter = 'none';
       context.beginPath();
-      context.moveTo(centerX, centerY);
+      context.moveTo(secondHandStartPointX, secondHandStartPointY);
       context.lineTo(secondHandEndPointX, secondHandEndPointY);
       context.stroke();
     }
@@ -295,7 +304,7 @@
       context.strokeStyle = shadowColor;
       context.filter = 'blur(2px)';
       context.beginPath();
-      context.moveTo(centerX + handShadowOffsetX, centerY + handShadowOffsetY);
+      context.moveTo(minuteHandStartPointX + handShadowOffsetX, minuteHandStartPointY + handShadowOffsetY);
       context.lineTo(minuteHandEndPointX + handShadowOffsetX, minuteHandEndPointY + handShadowOffsetY);
       context.stroke();
     }
@@ -303,7 +312,7 @@
     context.strokeStyle = common.textActiveColor;
     context.filter = 'none';
     context.beginPath();
-    context.moveTo(centerX, centerY);
+    context.moveTo(minuteHandStartPointX, minuteHandStartPointY);
     context.lineTo(minuteHandEndPointX, minuteHandEndPointY);
     context.stroke();
 
@@ -313,7 +322,7 @@
       context.strokeStyle = shadowColor;
       context.filter = 'blur(2px)';
       context.beginPath();
-      context.moveTo(centerX + handShadowOffsetX, centerY + handShadowOffsetY);
+      context.moveTo(hourHandStartPointX + handShadowOffsetX, hourHandStartPointY + handShadowOffsetY);
       context.lineTo(hourHandEndPointX + handShadowOffsetX, hourHandEndPointY + handShadowOffsetY);
       context.stroke();
     }
@@ -321,7 +330,7 @@
     context.strokeStyle = common.textActiveColor;
     context.filter = 'none';
     context.beginPath();
-    context.moveTo(centerX, centerY);
+    context.moveTo(hourHandStartPointX, hourHandStartPointY);
     context.lineTo(hourHandEndPointX, hourHandEndPointY);
     context.stroke();
   }
