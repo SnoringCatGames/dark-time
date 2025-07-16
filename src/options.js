@@ -1,12 +1,19 @@
 'use strict';
 
 (() => {
-  const common = window.darkTime.common;
+  window.darkTime = window.darkTime || {};
+  window.darkTime.options = {};
 
-  let timeElement;
-  let colorSwatchElement;
+  const options = window.darkTime.options;
+  let common;
+  let time;
+
+  let clockContainer;
   let saveStatusElement;
   let resetButtonElement;
+
+  let analogOptionsContainerElement;
+  let digitalOptionsContainerElement;
 
   let showsAnalogDisplayInputElement;
   let showsHourMarkersInputElement;
@@ -28,26 +35,28 @@
   let isTextActiveInputValid;
   let isTextInactiveInputValid;
 
-  let isTextActiveColorShown;
-  let toggleTextColorInterval;
+  document.addEventListener('DOMContentLoaded', onDocumentLoad);
 
-  document.addEventListener('DOMContentLoaded', init);
+  function onDocumentLoad() {
+    console.log('options.js > onDocumentLoad');
 
-  function init() {
-    console.log('onDocumentLoad');
+    document.removeEventListener('DOMContentLoaded', onDocumentLoad);
 
-    document.removeEventListener('DOMContentLoaded', init);
+    common = window.darkTime.common;
+    time = window.darkTime.time;
+    common.init(true);
 
     initializeElements();
     initializeSettings();
-    updateTime();
   }
 
   function initializeElements() {
-    timeElement = document.querySelector('#time');
-    colorSwatchElement = document.querySelector('#color-swatch');
+    clockContainer = document.querySelector('#clock');
     saveStatusElement = document.querySelector('#save-status');
     resetButtonElement = document.querySelector('#reset button');
+
+    analogOptionsContainerElement = document.querySelector('#analog-options');
+    digitalOptionsContainerElement = document.querySelector('#digital-options');
 
     showsAnalogDisplayInputElement = document.querySelector('#uses-analog-display input');
     showsHourMarkersInputElement = document.querySelector('#uses-hour-markers input');
@@ -141,10 +150,12 @@
     common.includesAmPm = includesAmPmInputElement.checked;
     common.includesDigitalTimeInTitle = includesDigitalTimeInTitleInputElement.checked;
     validateColors();
-    updateElementColors();
     if (record) {
       recordSettings();
     }
+    analogOptionsContainerElement.style.display = common.showsAnalogDisplay ? 'flex' : 'none';
+    digitalOptionsContainerElement.style.display = common.showsAnalogDisplay ? 'none' : 'flex';
+    time.update();
   }
 
   function validateColors() {
@@ -179,20 +190,6 @@
     }
   }
 
-  function updateElementColors() {
-    colorSwatchElement.style.backgroundColor = common.backgroundColor;
-    isTextActiveColorShown = true;
-    toggleTextColor();
-    clearInterval(toggleTextColorInterval);
-    toggleTextColorInterval = setInterval(toggleTextColor, 1000);
-  }
-
-  function toggleTextColor() {
-    const textColor = isTextActiveColorShown ? common.textActiveColor : common.textInactiveColor;
-    colorSwatchElement.style.color = textColor;
-    isTextActiveColorShown = !isTextActiveColorShown;
-  }
-
   function recordSettings() {
     if (!isBackgroundInputValid || !isTextActiveInputValid || !isTextInactiveInputValid) {
       return;
@@ -220,10 +217,5 @@
         setTimeout(() => saveStatusElement.textContent = '', 1000);
       }
     });
-  }
-
-  function updateTime() {
-    timeElement.textContent = common.getTimeString();
-    window.requestAnimationFrame(updateTime);
   }
 })();

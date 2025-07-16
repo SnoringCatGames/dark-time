@@ -1,37 +1,54 @@
 'use strict';
 
 (() => {
-  const common = window.darkTime.common;
+  window.darkTime = window.darkTime || {};
+  window.darkTime.time = {};
+
+  const time = window.darkTime.time;
+  let common;
+
+  time.init = init;
+  time.update = update;
 
   let body;
+  let clockContainer;
   let analogTimeContainer;
   let digitalTimeContainer;
+  let digitsContainer;
+  let amPmContainer;
+  let settingsButton;
   let style;
   let cssTextNode;
-  let bodyTimeString = '';
+  let timeDigitsString = '';
+  let timeAmPmString = '';
   let documentTitle = '';
   let faviconHour = 0;
   let animationFrameId;
 
-  window.addEventListener('load', init, false);
+  window.addEventListener('load', onDocumentLoad, false);
+
+  function onDocumentLoad() {
+    console.log('time.js > onDocumentLoad');
+
+    window.removeEventListener('load', onDocumentLoad);
+
+    common = window.darkTime.common;
+    common.init(false);
+  }
 
   function init() {
-    console.log('onDocumentLoad');
+    common = window.darkTime.common;
 
-    window.removeEventListener('load', init);
+    body = document.querySelector('body');
+    clockContainer = document.querySelector('#clock');
+
+    createClockElements();
 
     updateTitle();
     setInterval(updateTitle, 2000);
 
     updateFavicon();
     setInterval(updateFavicon, 2000);
-
-    body = document.querySelector('body');
-    analogTimeContainer = document.querySelector('#analog-time');
-    digitalTimeContainer = document.querySelector('#digital-time');
-    style = document.createElement('style');
-    const head = document.querySelector('head');
-    head.appendChild(style);
 
     window.addEventListener('visibilitychange', onVisibilityChange);
 
@@ -40,6 +57,32 @@
     if (!document.hidden) {
       updateBodyTime();
     }
+  }
+
+  function createClockElements() {
+    analogTimeContainer = document.createElement('canvas');
+    analogTimeContainer.id = 'analog-time';
+    clockContainer.appendChild(analogTimeContainer);
+
+    digitalTimeContainer = document.createElement('div');
+    digitalTimeContainer.id = 'digital-time';
+    clockContainer.appendChild(digitalTimeContainer);
+
+    digitsContainer = document.createElement('span');
+    digitsContainer.id = 'digits';
+    digitalTimeContainer.appendChild(digitsContainer);
+
+    amPmContainer = document.createElement('span');
+    amPmContainer.id = 'am-pm';
+    digitalTimeContainer.appendChild(amPmContainer);
+
+    settingsButton = document.createElement('button');
+    settingsButton.id = 'settings-button';
+    clockContainer.appendChild(settingsButton);
+
+    style = document.createElement('style');
+    const head = document.querySelector('head');
+    head.appendChild(style);
   }
 
   function loadSettings() {
@@ -78,29 +121,34 @@
   function initializeBody() {
     onInteraction();
 
-    setTimeout(() => body.classList.add('loaded'), 50);
+    setTimeout(() => clockContainer.classList.add('loaded'), 50);
 
-    body.addEventListener('mousemove', onInteraction);
-    body.addEventListener('mousedown', onInteraction);
-    body.addEventListener('mouseup', onInteraction);
-    body.addEventListener('touchstart', onInteraction);
-    body.addEventListener('touchend', onInteraction);
-    body.addEventListener('touchmove', onInteraction);
+    clockContainer.addEventListener('mousemove', onInteraction);
+    clockContainer.addEventListener('mousedown', onInteraction);
+    clockContainer.addEventListener('mouseup', onInteraction);
+    clockContainer.addEventListener('touchstart', onInteraction);
+    clockContainer.addEventListener('touchend', onInteraction);
+    clockContainer.addEventListener('touchmove', onInteraction);
+    settingsButton.addEventListener('click', onSettingsButtonClick);
   }
 
   function onInteraction() {
+    update();
+  }
+
+  function update() {
     if (!!cssTextNode) {
       style.removeChild(cssTextNode);
     }
     const textShadow = common.showsShadows ? '-3px 3px 2px #00000055' : 'none';
     const cssText = `
-      html>body, html>body.loaded {
+      html #clock, html #clock.loaded {
         background-color: ${common.backgroundColor};
         color: ${common.textInactiveColor};
         text-shadow: ${textShadow};
       }
       
-      html>body:hover, html>body.loaded:hover {
+      html #clock:hover, html #clock.loaded:hover {
         color: ${common.textActiveColor};
       }
     `;
@@ -127,10 +175,13 @@
   }
 
   function updateDigitalTime() {
-    const newTimeString = common.getTimeString();
-    if (newTimeString !== bodyTimeString) {
-      bodyTimeString = newTimeString;
-      digitalTimeContainer.textContent = bodyTimeString;
+    const newTimeDigitsString = common.getTimeDigitsString();
+    let newTimeAmPmString = common.getTimeAmPmString();
+    if (newTimeDigitsString !== timeDigitsString || newTimeAmPmString !== timeAmPmString) {
+      timeDigitsString = newTimeDigitsString;
+      timeAmPmString = newTimeAmPmString;
+      digitsContainer.textContent = timeDigitsString;
+      amPmContainer.textContent = timeAmPmString;
     }
   }
 
@@ -138,20 +189,29 @@
     const TAU = Math.PI * 2;
     const HALF_PI = Math.PI / 2;
 
+    const scale = common.isInOptionsPage ? 0.3 : 1;
+
     const date = new Date();
     const hours = date.getHours() % 12;
     const minutes = date.getMinutes();
     const seconds = date.getSeconds();
     const milliseconds = date.getMilliseconds();
 
-    const hourHandLength = 80;
-    const minuteHandLength = 138;
-    const secondHandLength = 150;
-    const hourMarkerDistance = 163;
+    const hourHandLength = 80 * scale;
+    const minuteHandLength = 138 * scale;
+    const secondHandLength = 150 * scale;
+    const hourMarkerDistance = 163 * scale;
 
-    const hourHandWidth = 7;
-    const minuteHandWidth = 3;
-    const secondHandWidth = 1.5;
+    const hourHandWidth = 7 * scale;
+    const minuteHandWidth = 3 * scale;
+    const secondHandWidth = 1.5 * scale;
+    const hourDotRadius = 5 * scale;
+
+    const shadowColor = '#00000055';
+    const handShadowOffsetX = -4 * scale;
+    const handShadowOffsetY = 4 * scale;
+    const markerShadowOffsetX = -2 * scale;
+    const markerShadowOffsetY = 2 * scale;
 
     const hourHandProgress = (hours + minutes / 60) / 12;
     let minuteHandProgress = minutes / 60;
@@ -166,8 +226,8 @@
     const minuteHandAngle = minuteHandProgress * TAU;
     const secondHandAngle = secondHandProgress * TAU;
 
-    analogTimeContainer.width = window.innerWidth;
-    analogTimeContainer.height = window.innerHeight;
+    analogTimeContainer.width = clockContainer.clientWidth;
+    analogTimeContainer.height = clockContainer.clientHeight;
 
     const centerX = analogTimeContainer.width / 2;
     const centerY = analogTimeContainer.height / 2;
@@ -179,12 +239,6 @@
     const secondHandEndPointX = centerX + secondHandLength * Math.cos(secondHandAngle - HALF_PI);
     const secondHandEndPointY = centerY + secondHandLength * Math.sin(secondHandAngle - HALF_PI);
 
-    const shadowColor = '#00000055';
-    const handShadowOffsetX = -4;
-    const handShadowOffsetY = 4;
-    const markerShadowOffsetX = -2;
-    const markerShadowOffsetY = 2;
-
     const context = analogTimeContainer.getContext("2d");
 
     context.clearRect(0, 0, analogTimeContainer.width, analogTimeContainer.height);
@@ -194,7 +248,6 @@
     if (common.showsHourMarkers) {
       context.fillStyle = common.textInactiveColor;
 
-      const hourDotRadius = 5;
       for (let i = 0; i < 12; i++) {
         const angle = (i * TAU) / 12;
         const x = centerX + hourMarkerDistance * Math.cos(angle - HALF_PI);
@@ -298,6 +351,12 @@
       window.cancelAnimationFrame(animationFrameId);
     } else {
       updateBodyTime();
+    }
+  }
+
+  function onSettingsButtonClick() {
+    if (!common.isInOptionsPage) {
+      chrome.runtime.openOptionsPage();
     }
   }
 })();

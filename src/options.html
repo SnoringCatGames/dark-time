@@ -20,12 +20,15 @@
 
   <script defer type="text/javascript" src="/src/common.js"></script>
   <script defer type="text/javascript" src="/src/options.js"></script>
+  <script defer type="text/javascript" src="/src/time.js"></script>
 </head>
 
 <body>
-  <div id="color-swatch">
-    <div id="time"></div>
-  </div>
+  <div id="clock"></div>
+
+  <p id="hover-message">
+    ↑ Mouse-over the clock to see some styling animate! ↑
+  </p>
 
   <div id="save-status"></div>
 
@@ -41,50 +44,54 @@
     <div class="color-error"></div>
   </div>
 
-  <div id="uses-hour-markers" class="checkbox">
-    <label>
-      <input type="checkbox">
-      Hour markers
-    </label>
-    <div class="color-error"></div>
+  <div id="analog-options">
+    <div id="uses-hour-markers" class="checkbox">
+      <label>
+        <input type="checkbox">
+        Hour markers
+      </label>
+      <div class="color-error"></div>
+    </div>
+
+    <div id="uses-second-hand" class="checkbox">
+      <label>
+        <input type="checkbox">
+        Second hand
+      </label>
+      <div class="color-error"></div>
+    </div>
+
+    <div id="uses-discrete-hand-ticks" class="checkbox">
+      <label>
+        <input type="checkbox">
+        Discrete hand ticks
+      </label>
+      <div class="color-error"></div>
+    </div>
   </div>
 
-  <div id="uses-second-hand" class="checkbox">
-    <label>
-      <input type="checkbox">
-      Second hand
-    </label>
-    <div class="color-error"></div>
-  </div>
+  <div id="digital-options">
+    <div id="uses-24-hour-format" class="checkbox">
+      <label>
+        <input type="checkbox">
+        24-hour format
+      </label>
+      <div class="color-error"></div>
+    </div>
 
-  <div id="uses-discrete-hand-ticks" class="checkbox">
-    <label>
-      <input type="checkbox">
-      Discrete hand ticks
-    </label>
-    <div class="color-error"></div>
+    <div id="includes-am-pm" class="checkbox">
+      <label>
+        <input type="checkbox" checked>
+        Show AM/PM
+      </label>
+      <div class="color-error"></div>
+    </div>
   </div>
 
   <div id="uses-shadows" class="checkbox">
     <label>
       <input type="checkbox">
       Shadows
-    </label>
-    <div class="color-error"></div>
-  </div>
-
-  <div id="uses-24-hour-format" class="checkbox">
-    <label>
-      <input type="checkbox">
-      24-hour format
-    </label>
-    <div class="color-error"></div>
-  </div>
-
-  <div id="includes-am-pm" class="checkbox">
-    <label>
-      <input type="checkbox" checked>
-      Show AM/PM
     </label>
     <div class="color-error"></div>
   </div>
