@@ -1,6 +1,6 @@
 {
   "name": "Dark Time",
-  "version": "2.3.5",
+  "version": "2.3.6",
   "description": "Replaces the new tab page. Shows an analog or digital clock. Supports configuring the clock settings.",
   "permissions": [
     "storage"

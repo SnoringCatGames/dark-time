@@ -198,15 +198,15 @@
     const milliseconds = date.getMilliseconds();
 
     const hourHandLength = 80 * scale;
-    const minuteHandLength = 138 * scale;
-    const secondHandLength = 150 * scale;
-    const hourMarkerDistance = 163 * scale;
+    const minuteHandLength = 155 * scale;
+    const secondHandLength = 165 * scale;
+    const hourMarkerDistance = 178 * scale;
 
     const centerGapLength = 15 * scale;
 
-    const hourHandWidth = 7 * scale;
-    const minuteHandWidth = 3 * scale;
-    const secondHandWidth = 1.5 * scale;
+    const hourHandWidth = 10 * scale;
+    const minuteHandWidth = 5 * scale;
+    const secondHandWidth = 2 * scale;
     const hourDotRadius = 5 * scale;
 
     const shadowColor = '#00000055';
