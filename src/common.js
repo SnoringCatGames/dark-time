@@ -39,6 +39,11 @@
   // common.TEXT_ACTIVE_COLOR_DEFAULT = '#B3A861';
   // common.TEXT_INACTIVE_COLOR_DEFAULT = '#253C2B';
 
+  // Darker green and yellow.
+  // common.BACKGROUND_COLOR_DEFAULT = '#1A231B';
+  // common.TEXT_ACTIVE_COLOR_DEFAULT = '#7C7546';
+  // common.TEXT_INACTIVE_COLOR_DEFAULT = '#233427';
+
   common.ERROR_COLOR = '#DD2211';
   common.SUCCESS_COLOR = '#22BB44';
   common.HEX_REGEX = /^#([0-9a-f]{3}|[0-9a-f]{6})$/i;

@@ -210,10 +210,12 @@
     const hourDotRadius = 5 * scale;
 
     const shadowColor = '#00000055';
-    const handShadowOffsetX = -4 * scale;
-    const handShadowOffsetY = 4 * scale;
-    const markerShadowOffsetX = -2 * scale;
-    const markerShadowOffsetY = 2 * scale;
+    const handShadowOffsetX = -2 * scale;
+    const handShadowOffsetY = 2 * scale;
+    const markerShadowOffsetX = -1 * scale;
+    const markerShadowOffsetY = 1 * scale;
+
+    const outlineWidth = 0.5 * scale;
 
     const hourHandProgress = (hours + minutes / 60) / 12;
     let minuteHandProgress = minutes / 60;
@@ -261,6 +263,13 @@
         const angle = (i * TAU) / 12;
         const x = centerX + hourMarkerDistance * Math.cos(angle - HALF_PI);
         const y = centerY + hourMarkerDistance * Math.sin(angle - HALF_PI);
+        // Outline.
+        context.fillStyle = common.backgroundColor;
+        context.filter = 'none';
+        context.beginPath();
+        context.arc(x, y, hourDotRadius + outlineWidth * 2, 0, TAU);
+        context.fill();
+        // Shadow.
         if (common.showsShadows) {
           context.fillStyle = shadowColor;
           context.filter = 'blur(1px)';
@@ -268,6 +277,7 @@
           context.arc(x + markerShadowOffsetX, y + markerShadowOffsetY, hourDotRadius, 0, TAU);
           context.fill();
         }
+        // Dot.
         context.fillStyle = common.textInactiveColor;
         context.filter = 'none';
         context.beginPath();
@@ -280,6 +290,15 @@
 
     // Draw the second hand.
     if (common.showsSecondHand) {
+      // Outline.
+      context.lineWidth = secondHandWidth + outlineWidth * 2;
+      context.strokeStyle = common.backgroundColor;
+      context.filter = 'none';
+      context.beginPath();
+      context.moveTo(secondHandStartPointX, secondHandStartPointY);
+      context.lineTo(secondHandEndPointX, secondHandEndPointY);
+      context.stroke();
+      // Shadow.
       if (common.showsShadows) {
         context.lineWidth = secondHandWidth;
         context.strokeStyle = shadowColor;
@@ -289,6 +308,7 @@
         context.lineTo(secondHandEndPointX + handShadowOffsetX, secondHandEndPointY + handShadowOffsetY);
         context.stroke();
       }
+      // Hand.
       context.lineWidth = secondHandWidth;
       context.strokeStyle = common.textActiveColor;
       context.filter = 'none';
@@ -299,6 +319,15 @@
     }
 
     // Draw the minute hand.
+    // Outline.
+    context.lineWidth = minuteHandWidth + outlineWidth * 2;
+    context.strokeStyle = common.backgroundColor;
+    context.filter = 'none';
+    context.beginPath();
+    context.moveTo(minuteHandStartPointX, minuteHandStartPointY);
+    context.lineTo(minuteHandEndPointX, minuteHandEndPointY);
+    context.stroke();
+    // Shadow.
     if (common.showsShadows) {
       context.lineWidth = minuteHandWidth;
       context.strokeStyle = shadowColor;
@@ -308,6 +337,7 @@
       context.lineTo(minuteHandEndPointX + handShadowOffsetX, minuteHandEndPointY + handShadowOffsetY);
       context.stroke();
     }
+    // Hand.
     context.lineWidth = minuteHandWidth;
     context.strokeStyle = common.textActiveColor;
     context.filter = 'none';
@@ -317,6 +347,15 @@
     context.stroke();
 
     // Draw the hour hand.
+    // Outline.
+    context.lineWidth = hourHandWidth + outlineWidth * 2;
+    context.strokeStyle = common.backgroundColor;
+    context.filter = 'none';
+    context.beginPath();
+    context.moveTo(hourHandStartPointX, hourHandStartPointY);
+    context.lineTo(hourHandEndPointX, hourHandEndPointY);
+    context.stroke();
+    // Shadow.
     if (common.showsShadows) {
       context.lineWidth = hourHandWidth;
       context.strokeStyle = shadowColor;
@@ -326,6 +365,7 @@
       context.lineTo(hourHandEndPointX + handShadowOffsetX, hourHandEndPointY + handShadowOffsetY);
       context.stroke();
     }
+    // Hand.
     context.lineWidth = hourHandWidth;
     context.strokeStyle = common.textActiveColor;
     context.filter = 'none';
